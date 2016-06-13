@@ -1,0 +1,31 @@
+{
+  "name": "hexo-theme-catals",
+  "version": "0.1.0",
+  "description": "A hexo theme inspired by vuejs.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/catalsdevelop/hexo-theme-catals"
+  },
+  "keywords": [
+    "hexo",
+    "theme",
+    "catals"
+  ],
+  "author": "catalsdevelop@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/catalsdevelop/hexo-theme-catals"
+  },
+  "homepage": "https://github.com/catalsdevelop/hexo-theme-catals#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.6.0"
+  },
+  "dependencies": {}
+}
