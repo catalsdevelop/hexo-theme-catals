@@ -10,6 +10,11 @@ gulp.task('sass', function() {
         .pipe(gulp.dest('./source/css'));
 });
 
+gulp.task('copy', function() {
+  return gulp.src('./source/scss/iconfont.*')
+  .pipe(gulp.dest('./source/css'))
+});
+
 // 实时编译
 gulp.task('default', ['sass'], function() {
     gulp.watch('./source/scss/_partial/*.scss', ['sass']);
