@@ -4,6 +4,7 @@
   "description": "A hexo theme inspired by vuejs.org",
   "main": "index.js",
   "scripts": {
+    "sass": "./node_modules/.bin/gulp default",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

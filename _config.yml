@@ -1,9 +1,12 @@
 menu:
-    Blog: /
-    Archive: /archives/
-    GitHub: https://github.com/catalsdevelop
-    Rss: /atom.xml
-    About: /about
+  Blog: /
+  Archive: /archives
+  Category: /categories
+  About: /about
+icon-menu:
+  GitHub: https://github.com/catalsdevelop
+  Rss: /atom.xml
+
 
 favicon: /favicon.png
 #logo: /favicon.png
