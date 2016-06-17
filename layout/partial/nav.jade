@@ -4,12 +4,9 @@
       li.nav-list-item
             - var re = /^(http|https):\/\/*/gi;
             - var tar = re.test(value) ? "_blank" : "_self"
-            a.nav-list-link(class={active: (is_home() && value === "/") || (is_archive() && value === "/archives/") } href=value target=tar)
+            a.nav-list-link(class={active: (is_home() && value === "/") || (is_archive() && value === "/archives") } href=value target=tar)
                 != key.toUpperCase()
-  ul.icon-nav-list.iconfont
-    li
-      i.icon-github
-    li
-      i.icon-rss
-    li
-      i.icon-search
+  ul.icon-nav-list
+    each value, key in theme.iconmenu
+      li.icon-nav-list-item
+        a.iconfont(class="icon-"+key target="_blank" href=value)

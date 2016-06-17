@@ -1,0 +1,27 @@
+.tag-list {
+  padding:1em;
+  clear:both;
+  overflow:hidden;
+  .tag-list-item {
+    float:left;
+    margin:8px 4px 0 0;
+    padding:4px 12px;
+    border-radius: 4px;
+    border-bottom:4px solid #3aa373;
+    font-size:18px;
+    color: #fff;
+    background-color: #4fc08d;
+    &:hover {
+      background-color: #22bd77;
+    }
+  }
+  .tag-list-count{
+    margin-left:10px;
+    &:before {
+      content:'(';
+    }
+    &:after {
+      content: ')';
+    }
+  }
+}

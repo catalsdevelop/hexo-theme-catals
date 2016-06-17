@@ -49,3 +49,10 @@ mixin post(item)
             +postInfo(item)
             .post-content
                 != item.content
+
+mixin tag()
+    .post
+        article.post-block
+            h1.post-title
+              != page.title
+            != list_tags()
